@@ -28,7 +28,7 @@ const CreatePost = () => {
     if (form.prompt) {
       try {
         setGeneratingImg(true);
-        const response = await fetch('https://ai-art-oqkg.onrender.com/api/v1/dalle', {
+        const response = await fetch('http://127.0.0.1:8080/api/v1/dalle', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -38,13 +38,18 @@ const CreatePost = () => {
           }),
         });
 
+        console.log(response);
+
         var data = await response.json();
         console.log('====================================');
         console.log(data.photo.url);
         console.log('====================================');
         setForm({ ...form, photo:data.photo.url });
+
+
       } catch (err) {
         alert(err);
+        console.log(err);
       } finally {
         setGeneratingImg(false);
       }
@@ -59,7 +64,7 @@ const CreatePost = () => {
     if (form.prompt && form.photo) {
       setLoading(true);
       try {
-        const response = await fetch('https://ai-art-oqkg.onrender.com/api/v1/post', {
+        const response = await fetch('http://127.0.0.1:8080/api/v1/post', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
