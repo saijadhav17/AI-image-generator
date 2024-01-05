@@ -4,8 +4,6 @@
 
 AI Art is an innovative project that harnesses the power of artificial intelligence to generate stunning images based on prompts. By leveraging the OpenAI API's DALL·E model, AI Art allows users to unleash their creativity and generate unique artwork by providing imaginative prompts. Join our vibrant community platform, where users can showcase their AI-generated art, connect with fellow artists, and explore a world of limitless artistic possibilities. 🖌️✨
 
-![AI Art Screenshot](screenshot.png)
-
 ## 📚 Introduction
 
 AI Art is a groundbreaking project that merges artistry with artificial intelligence. Using the OpenAI API's DALL·E model, the project enables users to generate captivating images by supplying creative prompts. Whether you're an artist looking for inspiration or simply curious about the intersection of AI and art, AI Art provides a unique platform to explore and showcase AI-generated artwork.
