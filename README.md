@@ -38,7 +38,7 @@ AI Art utilizes the following technologies and tools:
 
 To explore AI Art locally or deploy it to a production environment, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/PranayChavhan/AI-image-generator.git`
+1. Clone the repository: `https://github.com/saijadhav17/AI-image-generator.git`
 2. Navigate to the project directory: `cd AI art generator`
 3. Install the required dependencies in server and client directory: `npm install`
 4. Set up the necessary environment variables: Create a `.env` file in the server directory and add the following variables:
