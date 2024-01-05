@@ -73,7 +73,6 @@ Contributions to AI Art are welcome! If you have any ideas, suggestions, or bug 
 
 For any inquiries or further information, feel free to reach out to us:
 
-- **Email**: pranaychavhan2102@gmail.com
-- **LinkedIn**: [Your Name](https://www.linkedin.com/in/pranay-chavhan-38785a224/)
+- **Email**: saijadhav1723@gmail.com
 
 Unleash your creativity with AI Art and become part of our vibrant community!
